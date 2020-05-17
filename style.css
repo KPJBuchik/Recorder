@@ -242,6 +242,7 @@ margin-left: -55px;}
     @media only screen and (max-width: 600px) {
         body {
           background-color: lightblue;
+          overflow-x: hidden
         }
 
         .container{margin-left:-380px;
@@ -262,8 +263,9 @@ margin-left: -55px;}
         margin-left:357px;}
 
             #custom-seekbar{    
-                margin-left:380px;
-                    width: 400px;
+                margin-left: 340px;
+                width: 400px;
+            
 
             }
             .custom-seekbar{    width: 350px;
