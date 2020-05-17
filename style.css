@@ -248,14 +248,14 @@ margin-left: -55px;}
         }
 
         .tape{transform: rotate(90deg);
-            width:600px;
-            height:500px;
-          margin-left:350px;
-          margin-top:20px;
+            width: 580px;
+            height: 450px;
+            margin-left: 300px;
+            margin-top: 38px;
         }
         .recordholder {
-            margin-left: 420px;
-            margin-top: 5px;
+            margin-left: 370px;
+            margin-top: 20px;
         }
 
         .holder{width:500px;
