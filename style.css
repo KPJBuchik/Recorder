@@ -240,7 +240,7 @@ margin-left: -55px;}
 
 
     @media only screen and (max-width: 600px) {
-        body {
+        html, body {
           background-color: lightblue;
           overflow-x: hidden
         }
