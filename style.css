@@ -1,0 +1,276 @@
+body{background-color:#E18DA0}
+
+
+#record {
+    background-color:#FF1205;
+    border-width: medium;
+    border-color: #FF1205;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    
+    border-radius: 50%;
+    position:absolute;
+    margin-top: 32px;
+    margin-left: 18px;
+}
+
+h2 {
+    left: 100px;
+    position: relative;
+}
+#recordedAudio {
+  left: 100px;
+  right: 100px;
+  position: relative;
+  display:none;
+}
+
+
+.tape{    margin-left: 390px;
+
+width:30%;
+height:30%;
+margin-top: -40px;}
+
+
+
+.controls{margin-left:376px;
+word-spacing: 60px;
+margin-top: -60px;}
+
+#trackground{    background-color: #CFCFC4;
+    width: 1070px;
+    border-radius: 43px;
+    margin-top: 20px;
+    margin-left: 130px;
+    height: 10px;
+    position: relative;
+    left: -100px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    box-shadow: 5px 4px #6c757d;
+}
+
+
+.winder{width: 50px;
+    height: 50px;
+    position: relative;
+    top: -6px;
+    right: 275px;
+}
+.winder2{width: 50px;
+    height: 50px;
+    position: relative;
+    right: 174px;
+    top: -6px;}
+
+
+#custom-seekbar
+{  
+  background-color:#707070;
+  cursor: pointer;
+  height: 5px;
+  margin-top:10px;
+  margin-left: 50px;
+
+    outline: thin solid BLACK;
+  overflow: hidden;
+  position: absolute;
+  width: 970px;
+  /* border-radius:50%; */
+}
+#custom-seekbar span
+{
+  background-color: #8DE1CE;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10px;
+  width: 0px;
+  
+}
+
+.custom-seekbar
+{  
+    background-color: #707070;
+    cursor: pointer;
+    height: 5px;
+    margin-left: 40px;
+    margin-top: -20px;
+    outline: thin solid BLACK;
+    overflow: hidden;
+    position: absolute;
+    width: 900px;
+}
+
+.recording{color:#FF2B05;
+font-family: 'indie flower';
+display:none;
+font-size:2em;
+
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #0ff,
+      0 0 80px #0ff,
+      0 0 90px #0ff,
+      0 0 100px #0ff,
+      0 0 150px #0ff;
+  }
+
+
+  .holder{    background-color: #CFCFC4;
+    width: 1070px;
+    border-radius: 43px;
+    margin-left: 30px;
+    min-height: 200px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    box-shadow: 5px 4px #6c757d;}
+
+.buttons{width:90px;
+height:120px;
+background-color:#9A9A97;
+border-radius:24px;
+border-style:solid;
+border-width:4px;
+border-color:#707070;
+display:inline-block;
+cursor:pointer;
+box-shadow: 3px 5px #707070;;
+}
+
+.buttons:active{  box-shadow: 0 5px #707070;;
+    box-shadow: 1px 5px #707070;;
+    transform: translateY(8px) 
+}
+
+
+.recordholder{       
+    margin-top: -40px;
+    margin-left: 390px;
+}
+
+#play{       position: absolute;
+    margin-top: 30px;
+    margin-left: 22px;
+    height:50px;
+    cursor:pointer;
+}
+
+
+#stopRecord{     position: absolute;
+    margin-top: 30px;
+    margin-left: 16px;
+    height:50px;
+    cursor:pointer;
+}
+
+#pause{position: absolute;
+    margin-top: 30px;
+    margin-left: 26px;
+    height:50px;
+    cursor:pointer;
+}
+
+.container{display:grid;
+    grid-template-columns: auto;
+  
+  
+
+    }
+
+.grid-item{  grid-row-start: 1;
+    grid-row-end: 1;}
+.playNewRecording{
+    height: 36px;
+    width: 36px;
+    background-color:#9A9A97;
+    position: relative;
+    top: -4px;
+
+    background-image:url("play2.png")
+
+}
+
+.newSeekBar{    width: 1000px;
+    height: 36px;
+    background-color: #9A9A97;
+    margin-left: 20px;
+    margin-top: -40px;
+}
+
+audio{display:none}
+
+
+.download-icon{
+    height: 30px;
+    width: 29px;
+    margin-left: 950px;
+    position: relative;
+    top: 5px;
+    background-image: url(download.png);
+    
+}
+
+ul{
+margin-left: -55px;}
+
+
+ #track-name{
+    position: relative;
+    top: -201px;
+    height: 21px;
+    width: 236px;
+    left: 463px;}
+
+    .submit{display:none;}
+
+
+
+#display{        position: absolute;
+    margin-top: 2px;
+        margin-left: 4px;
+}
+
+
+    @media only screen and (max-width: 600px) {
+        body {
+          background-color: lightblue;
+        }
+
+        .container{margin-left:-380px;
+        }
+
+        .tape{transform: rotate(90deg);
+            width:600px;
+            height:500px;
+          margin-left:350px;
+          margin-top:20px;
+        }
+        .recordholder {
+            margin-left: 420px;
+            margin-top: 5px;
+        }
+
+        .holder{width:500px;
+        margin-left:357px;}
+
+            #custom-seekbar{    
+                margin-left:380px;
+                    width: 400px;
+
+            }
+        #trackground{background-color:lightblue;
+        box-shadow:0px 0px;}
+
+        .winder{display:none;}
+        .winder2{display:none;}
+        #track-name{display:none;}
+        
+      }

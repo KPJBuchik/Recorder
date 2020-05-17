@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
+
+  <title>Tune Almanac</title>
+  <link rel="icon" type="image/png" href="asses/favicon.ico">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="grid-item">
+
+    <div class="tape-container">
+      <img class="tape" src="TAPE.png">
+      <img class="winder" src="winder.png">
+      <img class="winder2" src="winder.png">
+      <form>
+        <input placeholder="Name Your Track" type="text" id="track-name" name="name"><br><br>
+        <input class="submit" type="submit" value="Submit">
+      </form> 
+    </div>
+    <div class="recordholder">
+    <div class="buttons">
+      <button id=record></button>
+    </div>
+    <div class="buttons">
+
+      <img src="play.png" id="play"></img>
+    </div>
+    <div class="buttons">
+
+      <img src="stop.png" id="stopRecord" disabled></img>
+    </div>
+    <div class="buttons">
+
+      <img src="pause.png" id="pause" disabled></img>
+    </div>
+
+  </div>
+  <div id="trackground" src="track background.png">
+    <div id="display"></div><div id="custom-seekbar">
+      <span></span>
+
+    </div>
+    </div>
+    <p>
+      <audio id="recordedAudio"></audio>
+
+    </p>
+    <div class="holder">
+      <div id="formats"></div>
+      <p><strong></strong></p>
+      <ol id="recordingsList"></ol>
+    </div>
+
+  </div>
+ </div>
+
+  <script src="https://unpkg.com/wavesurfer.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </script>
+  <script src="https://kit.fontawesome.com/78f23082a5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
