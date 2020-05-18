@@ -244,7 +244,6 @@ margin-left: -55px;}
             position:relative;
             height: 100%;
 
-          background-color: lightblue;
           overflow-x: hidden;
         }
 
@@ -253,31 +252,45 @@ margin-left: -55px;}
 
         .tape{transform: rotate(90deg);
             width: 580px;
-            height: 450px;
-            margin-left: 300px;
-            margin-top: 38px;
+            height: 435px;
+            margin-left: 320px;
+            margin-top: 70px;
+        
         }
         .recordholder {
-            margin-left: 370px;
-            margin-top: 20px;
+            margin-left: 388px;
+            margin-top: 30px;
         }
 
-        .holder{width:500px;
-        margin-left:357px;}
+        .holder{width:350px;
+        margin-left:400px;}
 
             #custom-seekbar{    
-                margin-left: 340px;
-                width: 400px;
+                margin-left: 370px;
+                width: 350px;
             
 
             }
-            .custom-seekbar{    width: 350px;
+            .custom-seekbar{    width: 200px;
             }
-        #trackground{background-color:lightblue;
+        #trackground{background-color:#E18DA0;
         box-shadow:0px 0px;}
 
-        .winder{display:none;}
-        .winder2{display:none;}
+        .winder{width: 80px;
+            height: 80px;
+            position: relative;
+            top: -71px;
+            right: 355px;}
+        .winder2{    width: 80px;
+            height: 80px;
+            position: relative;
+            top: 180px;
+            right: 440px;}
         #track-name{display:none;}
-        
+        .newSeekBar{    width: 280px;
+
+        left:20px;}
+
+        .download-icon{    margin-left: 235px;
+        }
       }
